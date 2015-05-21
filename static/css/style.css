@@ -27,24 +27,25 @@ body										{color:#b1b1b1; font-family:"Arial", Verdana, Tahoma; font-size:12
 .flt_lt										{float:left; display:inline;}
 .flt_rt										{float:right; display:inline;}
 /* ---------------------------------------------------------------------------------*/
+
+@-ms-viewport{
+  width: device-width;
+}
+
 @font-face {
-    font-family: 'allerregular';
+    font-family: 'Arial';
     src: url('../fonts/Aller/aller_rg-webfont.eot');
     src: url('../fonts/Aller/aller_rg-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/Aller/aller_rg-webfont.woff') format('woff'),
          url('../fonts/Aller/aller_rg-webfont.ttf') format('truetype'),
-         url('../fonts/Aller/aller_rg-webfont.svg#allerregular') format('svg');
+         url('../fonts/Aller/aller_rg-webfont.svg#Arial') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'allerbold';
-    src: url('../fonts/Aller%20bd/aller_bd-webfont.eot');
-    src: url('../fonts/Aller%20bd/aller_bd-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Aller%20bd/aller_bd-webfont.woff') format('woff'),
-         url('../fonts/Aller%20bd/aller_bd-webfont.ttf') format('truetype'),
-         url('../fonts/Aller%20bd/aller_bd-webfont.svg#allerbold') format('svg');
+    font-family: 'Tahoma';
+ 
     font-weight: normal;
     font-style: normal;
 }
@@ -56,13 +57,13 @@ body										{color:#b1b1b1; font-family:"Arial", Verdana, Tahoma; font-size:12
 .top-content-img1							{width:100%; margin:0 auto; background:url(../images/main-img1.jpg) no-repeat top center; height:535px; border-top:solid 6px #06264d; border-bottom:solid 6px #355479; background-size:cover; min-width:992px; }
 .header										{margin:0 auto; display:inline-block; width:992px;}
 .banner-text								{width:680px; margin:50px auto 0 auto;}
-.banner-text h2								{font-family: 'allerbold'; font-size:62.78px; color:#ffffff; text-align:center; font-weight:normal; line-height:75px;}
-.banner-text p								{font-family: 'allerregular'; font-size:14px; color:#ffffff; text-align:center; width:495px; margin:0 auto; line-height:23px; padding:30px 0 0 0;}
+.banner-text h2								{font-family: 'tahoma'; font-size:62.78px;; color:#ffffff; text-align:center; font-weight:normal; line-height:75px;}
+.banner-text p								{font-family: 'Arial'; font-size:14px;; color:#ffffff; text-align:center; width:495px; margin:0 auto; line-height:23px; padding:30px 0 0 0;}
 .send										{width:410px; margin:35px auto 0 auto;}
 .send ul									{display:inline-block; float:left;}
 .send ul li									{display:inline-block; float:left; }
-.send ul li a								{display:block; font-family: 'allerregular'; font-size:15px; color:#f9df2a; text-transform:uppercase; padding:10px 20px 10px 20px; text-align:center;}
-.send ul li span							{display:block; font-family: 'allerregular'; font-size:14px; color:#ffffff; padding:9px 14px 0 14px;}
+.send ul li a								{display:block; font-family: 'Arial'; font-size:100%; color:#f9df2a; text-transform:uppercase; padding:10px 20px 10px 20px; text-align:center;}
+.send ul li span							{display:block; font-family: 'Arial'; font-size:100%; color:#ffffff; padding:9px 14px 0 14px;}
 .send ul li a:hover, .send ul li a.active	{border:solid 1px #f9df2a; padding:9px 19px;}
 /*-------------------------------------------*/
 
@@ -74,90 +75,104 @@ body										{color:#b1b1b1; font-family:"Arial", Verdana, Tahoma; font-size:12
 .nav										{float:right; margin:50px 0 0 0;}
 .nav ul										{display:inline-block; float:left;}
 .nav ul li									{display:inline-block; float:left; padding:0 0 0 38px;}
-.nav ul li a								{display:block; font-family: 'allerregular'; font-size:14px; color:#ffffff;}
+.nav ul li a								{display:block; font-family: 'Arial'; font-size:14px; color:#ffffff;}
 .nav ul li a span							{}
 .nav ul li a:hover							{text-decoration:underline;}
 /* ---------------------------------------------------------*/
 
 /* ------------------------ MIAN CONTENT HERE --------------*/
 .services-bg								{margin:0 auto; width:100%; border-bottom:solid 1px #ebebeb; padding-bottom:36px;}
-.services-bg h3								{font-family: 'allerbold'; font-size:25px; color:#06264d; text-align:center; font-weight:normal; text-transform:uppercase; line-height:30px; padding:25px 0 35px 0;}
+.services-bg h3								{font-family: 'tahoma'; font-size:25px; color:#06264d; text-align:center; font-weight:normal; text-transform:uppercase; line-height:30px; padding:25px 0 35px 0;}
 .services-box1								{float:left; margin:0 65px 0 0; width:287px; }
 .services-img								{margin:0 auto; width:88px; }
-.services-box1 h4							{font-family: 'allerregular'; font-size:22px; color:#2c2c2c; text-align:center; display:block; font-weight:normal; padding:30px 0 0 0;}
-.services-box1 p							{font-family: 'allerregular'; font-size:14px; color:#777777; text-align:center; display:block; padding:20px 0 0 0;}
+.services-box1 h4							{font-family: 'Arial'; font-size:22px; color:#2c2c2c; text-align:center; display:block; font-weight:normal; padding:30px 0 0 0;}
+.services-box1 p							{font-family: 'Arial'; font-size:14px; color:#777777; text-align:center; display:block; padding:20px 0 0 0;}
 .services-box2								{float:right; margin:0; width:287px;}
-.services-box2 h4							{font-family: 'allerregular'; font-size:22px; color:#2c2c2c; text-align:center; display:block; font-weight:normal; padding:30px 0 0 0;}
-.services-box2 p							{font-family: 'allerregular'; font-size:14px; color:#777777; text-align:center; display:block; padding:20px 0 0 0;}
+.services-box2 h4							{font-family: 'Arial'; font-size:22px; color:#2c2c2c; text-align:center; display:block; font-weight:normal; padding:30px 0 0 0;}
+.services-box2 p							{font-family: 'Arial'; font-size:14px; color:#777777; text-align:center; display:block; padding:20px 0 0 0;}
 .blue-bg									{width:981px; float:left; background:#06264d; height:89px; border-radius:3px; position:relative; behavior: url(PIE.htc); margin:55px 0 0 0;}
-.blue-bg a									{font-family: 'allerregular'; font-size:21px; color:#ffffff; text-align:center; background:url(../images/lock.png) no-repeat 140px center; width:575px; padding:20px 188px 12px 217px; display:inline-block; text-align:left; }
+.blue-bg a									{font-family: 'Arial'; font-size:21px; color:#ffffff; text-align:center; background:url(../images/lock.png) no-repeat 140px center; width:575px; padding:20px 188px 12px 217px; display:inline-block; text-align:left; }
 .blue-bg a span								{color:#f9df2a;}
 .projects									{width:100%; margin:0 auto;}
-.projects h2								{font-family: 'allerbold'; font-size:25px; color:#06264d; text-align:center; font-weight:normal; text-transform:uppercase; line-height:30px; padding:25px 0 35px 0;}
-.contact-img1								{float:left; margin:0;}
+.projects h2								{font-family: 'tahoma'; font-size:25px; color:#06264d; text-align:center; font-weight:normal; text-transform:uppercase; line-height:30px; padding:25px 0 35px 0;}
+.contact-img1								{float:left; margin:0; }
 .thomson-bg									{float:right; margin:100px 0 0 0px; width:600px;}
 .thomson-bg-in								{margin:0; float:left; width:330px;}
 .thomson-bg-img								{margin:0;}
-.thomson-bg h3								{font-family: 'allerregular'; font-size:23px; color:#2c2c2c; padding:30px 0 0 10px; font-weight:normal;}
-.thomson-bg h6								{font-family: 'allerregular'; font-size:14px; color:#858585; padding:10px 0 10px 10px; font-weight:normal; text-transform:uppercase;}
-.thomson-bg p								{font-family: 'allerregular'; font-size:14px; color:#777777; font-weight:normal; width:260px; padding:0 0 0 10px; line-height:23px;}
+.thomson-bg h3								{font-family: 'Arial'; font-size:23px; color:#2c2c2c; padding:30px 0 0 10px; font-weight:normal;}
+.thomson-bg h6								{font-family: 'Arial'; font-size:14px; color:#858585; padding:10px 0 10px 10px; font-weight:normal; text-transform:uppercase;}
+.thomson-bg p								{font-family: 'Arial'; font-size:14px; color:#777777; font-weight:normal; width:260px; padding:0 0 0 10px; line-height:23px;}
 .read										{margin:10px 0 0 10px;}
-.read a										{font-family: 'allerregular'; font-size:14px; color:#06264d; font-weight:normal; width:260px; padding:0 20px 0 0px; background:url(../images/raed-arrow.png) no-repeat right center; text-transform:uppercase;}
+.read a										{font-family: 'Arial'; font-size:14px; color:#06264d; font-weight:normal; width:260px; padding:0 20px 0 0px; background:url(../images/raed-arrow.png) no-repeat right center; text-transform:uppercase;}
 .read a:hover								{text-decoration:underline;}
 .line										{width:979px; background:#ebebeb; height:1px; margin:0 auto;}
 .cn-bg										{width:100%; margin:0 auto;}
 .cn-text-bg									{float:left; margin:100px 0 0 0px; width:510px;}
 .cn-text-bg-in								{margin:0; float:right; width:330px;}
-.cn-text-bg h3								{font-family: 'allerregular'; font-size:23px; color:#2c2c2c; padding:30px 0 0 0px; font-weight:normal;}
-.cn-text-bg h6								{font-family: 'allerregular'; font-size:14px; color:#858585; padding:10px 0 10px 0px; font-weight:normal; text-transform:uppercase;}
-.cn-text-bg p								{font-family: 'allerregular'; font-size:14px; color:#777777; font-weight:normal; width:260px; padding:0 0 0 0px; line-height:23px;}
+.cn-text-bg h3								{font-family: 'Arial'; font-size:23px; color:#2c2c2c; padding:30px 0 0 0px; font-weight:normal;}
+.cn-text-bg h6								{font-family: 'Arial'; font-size:14px; color:#858585; padding:10px 0 10px 0px; font-weight:normal; text-transform:uppercase;}
+.cn-text-bg p								{font-family: 'Arial'; font-size:14px; color:#777777; font-weight:normal; width:260px; padding:0 0 0 0px; line-height:23px;}
 .read1										{margin:10px 0 0 0px;}
-.read1 a									{font-family: 'allerregular'; font-size:14px; color:#06264d; font-weight:normal; width:260px; padding:0 20px 0 0px; background:url(../images/raed-arrow.png) no-repeat right center; text-transform:uppercase;}
+.read1 a									{font-family: 'Arial'; font-size:14px; color:#06264d; font-weight:normal; width:260px; padding:0 20px 0 0px; background:url(../images/raed-arrow.png) no-repeat right center; text-transform:uppercase;}
 .read1 a:hover								{text-decoration:underline;}
 .cn-video-bg								{margin:42px 42px 0 0; float:right;}
 .cn-video									{float:left; position:relative;}
 .video										{margin:0 auto; position:absolute; left:30px; top:33px;}
 .play-bg									{width:327px; height:119px; margin:0 auto; background:url(../images/play-bg.png) no-repeat top center; position:absolute; left:162px; top:127px;}
-.play-bg a									{font-family: 'allerregular'; font-size:30.69px; color:#f9df2a;  text-transform:uppercase; background:url(../images/play-icon.png) no-repeat 15px center; padding:40px 40px 40px 123px; display:inline-block;}
+.play-bg a									{font-family: 'Arial'; font-size:30.69px; color:#f9df2a;  text-transform:uppercase; background:url(../images/play-icon.png) no-repeat 15px center; padding:40px 30px 20px0px; display:inline-block;}
 .projects2									{width:100%; margin:46px auto 0 auto;}
 .open										{margin:0 auto; width:100%; background:#f5f5f5; border-bottom:solid 1px #eaeaea; border-top:solid 1px #eaeaea;}
-.open h2									{font-family: 'allerbold'; font-size:25px; color:#06264d; text-align:center; font-weight:normal; text-transform:uppercase; line-height:30px; padding:55px 0 42px 0;}
+.open h2									{font-family: 'tahoma'; font-size:25px; color:#06264d; text-align:center; font-weight:normal; text-transform:uppercase; line-height:30px; padding:55px 0 42px 0;}
 .open-main									{min-width:1350px; margin:0 auto; width:1000px;}
 .open-box1									{width:230px; float:left; margin:0 45px 0 0; padding-bottom:32px;}
 .open-img									{margin:0;}
-.open-box1 h5								{font-family: 'allerregular'; font-size:17px; color:#545454; font-weight:normal; padding:20px 0 0 5px;}
+.open-box1 h5								{font-family: 'Arial'; font-size:17px; color:#545454; font-weight:normal; padding:20px 0 0 5px;}
 .open-box2									{width:230px; float:left; margin:0 0px 0 0; padding-bottom:32px;}
-.open-box2 h5								{font-family: 'allerregular'; font-size:17px; color:#545454; font-weight:normal; padding:20px 0 0 5px;}
+.open-box2 h5								{font-family: 'Arial'; font-size:17px; color:#545454; font-weight:normal; padding:20px 0 0 5px;}
 .people										{width:100%; margin:0 auto; background:#ffffff;}
-.people h2									{font-family: 'allerbold'; font-size:25px; color:#06264d; text-align:center; font-weight:normal; text-transform:uppercase; line-height:30px; padding:40px 0 38px 0;}
+.people h2									{font-family: 'tahoma'; font-size:25px; color:#06264d; text-align:center; font-weight:normal; text-transform:uppercase; line-height:30px; padding:40px 0 38px 0;}
 .name										{width:327px; margin:0 0 0 220px; background:url(../images/name-arrow.png) no-repeat left bottom; padding-bottom:48px;}
-.name h3									{font-family: 'allerregular'; font-size:23px; color:#06264d; font-weight:normal; padding:0px 0 8px 0; text-align:center;}
-.name h6									{font-family: 'allerregular'; font-size:16px; color:#9e9e9e; font-weight:normal; padding:0px 0 18px 0; text-transform:uppercase; text-align:center;}
-.name p										{font-family: 'allerregular'; font-size:14px; color:#777777; padding:0px; text-align:center; line-height:23px; }
+.name h3									{font-family: 'Arial'; font-size:23px; color:#06264d; font-weight:normal; padding:0px 0 8px 0; text-align:center;}
+.name h6									{font-family: 'Arial'; font-size:16px; color:#9e9e9e; font-weight:normal; padding:0px 0 18px 0; text-transform:uppercase; text-align:center;}
+.name p										{font-family: 'Arial'; font-size:14px; color:#777777; padding:0px; text-align:center; line-height:23px; }
 .people-images								{min-width:1402px; width:1000px; margin:15px auto 0 auto;}
 .people-img1								{float:left; margin:0;}
 .ebook										{margin:0 auto; width:100%; background:#06264d; padding:40px 0 50px 0; display:inline-block;}
 .you										{width:840px; margin:0; float:right;}
 .ebook-img									{float:left; margin:56px 0 0 0;}
 .you-text									{width:668px; float:right;}
-.you-text h3								{font-family: 'allerregular'; font-size:29px; color:#ffffff; line-height:24px; font-weight:normal; padding:9px 0 0 0;}
-.you-text p									{font-family: 'allerregular'; font-size:21px; color:#ffffff; line-height:24px; padding:38px 0 40px 0;}
+.you-text h3								{font-family: 'Arial'; font-size:29px; color:#ffffff; line-height:24px; font-weight:normal; padding:9px 0 0 0;}
+.you-text p									{font-family: 'Arial'; font-size:21px; color:#ffffff; line-height:24px; padding:38px 0 40px 0;}
 .you-text p	span							{color:#f9df2a;}
-.you-text a									{font-family: 'allerregular'; font-size:15px; color:#f9df2a; line-height:24px; padding:10px 32px 10px 33px; text-transform:uppercase; border:solid 1px #f9df2a; text-align:center;}
+.you-text a									{font-family: 'Arial'; font-size:15px; color:#f9df2a; line-height:24px; padding:10px 32px 10px 33px; text-transform:uppercase; border:solid 1px #f9df2a; text-align:center;}
 .you-text a:hover							{color:#ffffff; border-color:#ffffff;}
 .map										{width:100%; margin:0 auto; border-bottom:solid 6px #f2f2f2;}
 .map-img									{margin:0 auto; width:100%; height:636px; background:url(../images/map.jpg) no-repeat center top; background-size:cover;}
 .address									{width:472px; background:#ffffff; padding:0 0 38px 46px; margin:96px 0 0 86px; display:inline-block;}
-.address h2									{font-family: 'allerregular'; font-size:25px; color:#06264d; line-height:45px; text-transform:uppercase; padding:36px 0 10px 0; font-weight:normal;}
+.address h2									{font-family: 'Arial'; font-size:25px; color:#06264d; line-height:45px; text-transform:uppercase; padding:36px 0 10px 0; font-weight:normal;}
 .address1									{margin:0;}
 .address1 ul								{display:inline-block; float:left;}
 .address1 ul li								{display:inline-block; float:left; background:url(../images/map-icon1.png) no-repeat left top; width:355px; padding:0 0 12px 28px;}
-.address1 ul li a							{font-family: 'allerregular'; font-size:14px; color:#06264d;}
+.address1 ul li a							{font-family: 'Arial'; font-size:14px; color:#06264d;}
 .address1 ul li a:hover						{text-decoration:underline;}
-.address1 ul li span						{font-family: 'allerregular'; font-size:14px; color:#777777;}
+.address1 ul li span						{font-family: 'Arial'; font-size:14px; color:#777777;}
 .address1 ul li.icon2						{display:inline-block; float:left; background:url(../images/map-icon2.png) no-repeat left top; width:355px; padding:0 0 12px 28px;}
 .address1 ul li.icon3						{display:inline-block; float:left; background:url(../images/map-icon3.png) no-repeat left 4px; width:355px; padding:0 0 12px 28px;}
-.address h3									{font-family: 'allerregular'; font-size:25px; color:#06264d; line-height:45px; text-transform:uppercase; padding:20px 0 10px 0; font-weight:normal;}
+.address h3									{font-family: 'Arial'; font-size:25px; color:#06264d; line-height:45px; text-transform:uppercase; padding:20px 0 10px 0; font-weight:normal;}
+.size-auto                                  {max-width:100%;max-height:100%;}
+             
+
+
+.company_person             {float:left; margin:0; }      
+.company_profile            {float:right; margin:100px 0 0 0px; width:600px;}
+.company_profile-in         {margin:0; float:left; width:330px;}
+.company_next               {  background-image: url(../images/mini-dark.png);    width: 11px;    height: 16px;   } 
+.company_next   :HOVER{ background-image: url(../images/mini-dark.png);    background-position: 11px 0;}
+.company_pre {      background-image: url(../images/mini-dark_pre.png);     width: 11px;    height: 16px;}
+.company_pre:HOVER{      background-image: url(../images/mini-dark_pre.png);     background-position: 11px 0;}
+.company_profile h3           {font-family: 'Arial'; font-size:30px; color:#2c2c2c; padding:30px 0 0 10px; font-weight:bold;line-height:100px;}
+.company_profile p            {font-family: 'Arial'; font-size:14px; color:#858585; padding:10px 0 10px 10px; font-weight:normal; text-transform:uppercase;}
+
 /* ---------------------------------------------------------*/
 
 /* ------------------ FOOTER HERE --------------------------*/
@@ -165,8 +180,43 @@ body										{color:#b1b1b1; font-family:"Arial", Verdana, Tahoma; font-size:12
 .footer-nav									{width:535px; margin:0 auto; padding:27px 0 0 0;}
 .footer-nav ul								{display:inline-block; float:left;}
 .footer-nav ul li							{display:inline-block; float:left; padding:0 18px 0 18px;}
-.footer-nav ul li a							{display:block; font-family: 'allerregular'; font-size:14px; color:#06264d; text-transform:uppercase;}
+.footer-nav ul li a							{display:block; font-family: 'Arial'; font-size:100%; color:#06264d; text-transform:uppercase;}
 .footer-nav ul li a:hover					{text-decoration:underline;}
 .copy										{margin:0 auto; width:260px; padding:24px 0 0 0;}
-.copy p										{font-family: 'allerregular'; font-size:15px; color:#525252; text-align:center;}
+.copy p										{font-family: 'Arial'; font-size:15px; color:#525252; text-align:center;}
 /* ---------------------------------------------------------*/
+
+
+
+
+@media (min-width: 768px) {
+  .logo  {
+    float: left;
+  }
+ .nav {
+    float: right;
+  }
+}
+
+
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .header    {
+  
+    top: 0;
+  }
+  .footer   t {
+  
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+ .wrapper    {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+
+.header,  .footer , .container  {
+    width: 80%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}

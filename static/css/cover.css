@@ -1,0 +1,198 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #333;
+}
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+   background:url(../images/main-img1.jpg) no-repeat top center;
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+
+
+/* Padding for spacing */
+.inner {
+  padding: 10px;
+}
+
+
+/*
+ * Header
+ */
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    
+    top: 0;
+  }
+  .mastfoot {
+   
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px;
+  }
+}
+
+/* layout */
+/* ----------------------- layout ----------*/
+.wrapper                  {margin:0 auto; min-width:1395px;}
+.container                  {width:992px; margin:0 auto;}
+.top-content                {width:100%; margin:0 auto; }
+.top-content-img1             {width:100%; margin:0 auto; background:url(images/main-img1.jpg) no-repeat top center; height:535px; border-top:solid 6px #06264d; border-bottom:solid 6px #355479; background-size:cover; min-width:992px; }
+.header                   {margin:0 auto; display:inline-block; width:992px;}
+.banner-text                {width:680px; margin:50px auto 0 auto;}
+.banner-text h2               {font-family: 'tahoma'; font-size:62.78px;; color:#ffffff; text-align:center; font-weight:normal; line-height:75px;}
+.banner-text p                {font-family: 'Arial'; font-size:14px;; color:#ffffff; text-align:center; width:495px; margin:0 auto; line-height:23px; padding:30px 0 0 0;}
+.send                   {width:410px; margin:35px auto 0 auto;}
+.send ul                  {display:inline-block; float:left;}
+.send ul li                 {display:inline-block; float:left; }
+.send ul li a               {display:block; font-family: 'Arial'; font-size:100%; color:#f9df2a; text-transform:uppercase; padding:10px 20px 10px 20px; text-align:center;}
+.send ul li span              {display:block; font-family: 'Arial'; font-size:100%; color:#ffffff; padding:9px 14px 0 14px;}
+.send ul li a:hover, .send ul li a.active {border:solid 1px #f9df2a; padding:9px 19px;}
+/*-------------------------------------------*/
+
+/* ------------------ HEADER HERE -------------------*/
+.logo                   {margin:22px 0 0 30px; float:left;}
+/* ---------------------------------------------------------*/
+
+/* ------------------------- NAVIGATION HERE ---------------*/
+.nav                    {float:right; margin:50px 0 0 0;}
+.nav ul                   {display:inline-block; float:left;}
+.nav ul li                  {display:inline-block; float:left; padding:0 0 0 38px;}
+.nav ul li a                {display:block; font-family: 'Arial'; font-size:14px; color:#ffffff;}
+.nav ul li a span             {}
+.nav ul li a:hover              {text-decoration:underline;}
+/* ---------------------------------------------------------*/
