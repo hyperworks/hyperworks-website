@@ -1,0 +1,231 @@
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+}
+
+.size-auto {width: 100%; height: 100%;}
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  padding-bottom: 20px;
+
+ 
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+ 
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+
+}
+
+
+/*
+ * Header
+ */
+.masthead-brand {
+   margin-bottom: 10px;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.top-content-img1   {width:100%; margin:0 auto; background:url(../images/main-img1.jpg) no-repeat top center; height:580px; border-top:solid 6px #06264d; border-bottom:solid 6px #355479; background-size:cover; }
+.masthead-nav {    float: right;  }
+.cover {  padding: 0 20px;}
+.cover .btn-lg {  padding: 10px 20px;  font-weight: bold;}
+.services-bg                {margin:0 auto; width:100%; border-bottom:solid 1px #ebebeb; padding-bottom:20px;}
+
+#people {width:100%; margin:0 auto;  no-repeat top center; background-size:cover; }
+.masthead-nav {    float: right;  }}
+
+.headtext   {font-family: 'Arial'; font-size:14px; color:#858585; padding:10px 0 10px 10px; font-weight:normal; text-transform:uppercase;}
+.thomson-bg h3  {font-family: 'Arial'; font-size:23px; color:#2c2c2c; padding:30px 0 0 30px; font-weight:normal;} h6          
+.text p      {font-family: 'Arial'; font-size:14px; color:#777777; font-weight:normal; width:260px; padding:0 0 0 10px; line-height:23px;}
+.contact-img1               {float:left; margin:0; }
+.right-box   {width:100%; margin:0 auto;}  
+.right-bg    {float:right; margin:100px 0 0 0px; width:510px;}
+.right-bg-in  {margin:0; float:left; width:330px;}  
+.right-bg   h3                {font-family: 'Arial'; font-size:23px; color:#2c2c2c; padding:30px 0 0 10px; font-weight:normal;}
+.right-bg   h6                {font-family: 'Arial'; font-size:14px; color:#858585; padding:10px 0 10px 10px; font-weight:normal; text-transform:uppercase;}
+.right-bg  p               {font-family: 'Arial'; font-size:14px; color:#777777; font-weight:normal; width:260px; padding:0 0 0 10px; line-height:23px;}
+
+.services-bg                {margin:0 auto; width:100%; border-bottom:solid 1px #ebebeb; padding-bottom:36px;}
+.services-bg h3,.people h2               {font-family: 'tahoma'; font-size:25px; color:#06264d; text-align:center; font-weight:normal; text-transform:uppercase; line-height:30px; padding:25px 0 35px 0;}
+.services-box1                {float:left; margin:0 65px 0 0; width:287px; }
+.services-img               {margin:0 auto; width:88px; }
+
+.map-box     {width:100%; margin:0 auto;}  
+.map-bg-img-left {width:550px; height:350px; padding:10px; margin:0 auto; background:url(../images/us-map.png) no-repeat top center; position:relative;  background-size:cover; }
+.map-bg-img-right {width:550px; height:350px; padding:10px; margin:0 auto; background:url(../images/th-map.png) no-repeat top center; position:relative;  background-size:cover; }
+
+
+#box2  { width:550px;  height:350px; b margin:0  auto 0 auto;background:url(../images/th-map.png); background-size:cover;overflow:hidden;}
+
+#box  { width:550px;  height:350px; b margin:0  auto 0 auto;background:url(../images/us-map.png); background-size:cover;overflow:hidden;}
+#overlay  { background:rgba(0,0,0,.75);  text-align:center;height: 100%;  padding:150px 0 0px 0;    opacity:0;  -webkit-transition: opacity .25s ease;-moz-transition: opacity .25s ease;}
+#box:hover #overlay {opacity:1;}
+#overlay2  { background:rgba(0,0,0,.75);  text-align:center;height: 100%;  padding:150px 0 0px 0;    opacity:0;  -webkit-transition: opacity .25s ease;-moz-transition: opacity .25s ease;}
+#box2:hover #overlay2 {opacity:1;}
+
+
+#plus     { font-family:'Arial';font-weight:700;    color:rgba(255,255,255,1); font-size:35px;}
+#address                  {width:472px; background:#ffffff; padding:0 0 38px 46px; margin:96px 0 0 86px; display:inline-block;}
+#address1 p                {display:inlinn;  color:rgba(255,255,255,1);}
+.left-box     {width:100%; margin:0 auto;}  
+.left-bg     {float:left; margin:100px 0 0 0px; width:510px;}
+.left-bg-in  {margin:0; float:right; width:330px;}            
+.left-bg  h3                {font-family: 'Arial'; font-size:23px; color:#2c2c2c; padding:30px 0 0 0px; font-weight:normal;}
+.left-bg  h6                {font-family: 'Arial'; font-size:14px; color:#858585; padding:10px 0 10px 0px; font-weight:normal; text-transform:uppercase;}
+.left-bg  p               {font-family: 'Arial'; font-size:14px; color:#777777; font-weight:normal; width:260px; padding:0 0 0 0px; line-height:23px;}
+.read1                    {margin:10px 0 0 0px;}
+.read1 a                  {font-family: 'Arial'; font-size:14px; color:#06264d; font-weight:normal; width:260px; padding:0 20px 0 0px; background:url(../images/raed-arrow.png) no-repeat right center; text-transform:uppercase;}
+
+
+.banner-text                {width:80%; margin:50px auto 0 auto; padding:20px;}
+.banner-text h2             {font-family: 'tahoma'; font-size:62.78px;; color:#ffffff; text-align:center; font-weight:normal; line-height:75px;}
+.banner-text p              {font-family: 'Arial'; font-size:14px;; color:#ffffff; text-align:center; width:495px; margin:0 auto; line-height:23px; padding:30px 0 0 0;}
+.send                   {width:500px; margin:35px auto 0 auto;}
+.send ul                  {display:inline-block; float:left;}
+.send ul li                 {display:inline-block; float:left; }
+.send ul li a               {display:block; font-family: 'Arial'; font-size:100%; color:#f9df2a; text-transform:uppercase; padding:10px 20px 10px 20px; text-align:center;}
+.send ul li span              {display:block; font-family: 'Arial'; font-size:100%; color:#ffffff; padding:9px 14px 0 14px;}
+.send ul li a:hover, .send ul li a.active {border:solid 1px #f9df2a; padding:9px 19px;}
+
+.company_bg                 {margin:0 auto; width:100%; border-bottom:solid 1px #ebebeb; padding-bottom:20px; margin:0 auto; background:url(../images/polygon-bg.png) no-repeat top center;}        
+.company_person             {float:left; margin:0; }      
+.company_profile            {float:right; margin:20px 0 0 0px;}
+.company_profile-in         {margin:0; float:left; width:330px;}
+.company_next               {  background-image: url(../images/mini-dark.png);    width: 11px;    height: 16px;   } 
+.company_next   :HOVER{ background-image: url(../images/mini-dark.png);    background-position: 11px 0;}
+.company_pre {      background-image: url(../images/mini-dark_pre.png);     width: 11px;    height: 16px;}
+.company_pre:HOVER{      background-image: url(../images/mini-dark_pre.png);     background-position: 11px 0;}
+.company_profile h3           {font-family: 'Arial'; font-size:30px; color:#2c2c2c; padding:30px 0 0 10px; font-weight:bold;line-height:100px;}
+.company_profile p            {font-family: 'Arial'; font-size:14px; color:#858585; padding:10px 0 10px 10px; font-weight:normal; text-transform:uppercase;}
+
+
+/* ------------------ FOOTER HERE --------------------------*/
+.footer                   {width:100%; margin:0 auto; background:#ffffff; padding:0 0 35px 0;}
+.footer-nav                 {width:700px; margin:0 auto; padding:27px 0 0 0;}
+.footer-nav ul                {display:inline-block; float:left;}
+.footer-nav ul li             {display:inline-block; float:left; padding:0 18px 0 18px;}
+.footer-nav ul li a             {display:block; font-family: 'Arial'; font-size:100%; color:#06264d; text-transform:uppercase;}
+.footer-nav ul li a:hover         {text-decoration:underline;}
+.copy                   {margin:0 auto; width:260px; padding:24px 0 0 0;}
+.copy p                   {font-family: 'Arial'; font-size:15px; color:#525252; text-align:center;}
+/* -----------
+
+
+/*-------------------------------------------*/
+
+
+
+
+
+@media (min-width: 768px) {  .masthead-brand {    float: left;  }
+
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+  .company_profile {float:right; margin:10px 0 0 0px; width:450px;}
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px;
+  }
+}
