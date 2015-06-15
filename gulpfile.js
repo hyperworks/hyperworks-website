@@ -9,7 +9,7 @@ var awspublish = require('gulp-awspublish');
 gulp.task('publish', function() {
  
   // create a new publisher 
-  var publisher = awspublish.create({params: { Bucket: 'www.hyperworks.co.th' }});
+  var publisher = awspublish.create({params: { Bucket: 'hyperworks.nyc' }});
  
   // define custom headers 
   var headers = {
