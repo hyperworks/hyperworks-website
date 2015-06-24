@@ -94,7 +94,7 @@ text-align: center;
 }
 
 .top-content-img1   {width:100%; margin:0 auto; background:url(../images/main-img1.jpg) no-repeat top center; height:580px; border-top:solid 6px #06264d; border-bottom:solid 6px #355479; background-size:cover; }
-.masthead-nav {    float: right;  }
+.masthead-nav {    float: right; padding-right: 25%;  }
 .cover {  padding: 0 20px;}
 .cover .btn-lg {  padding: 10px 20px;  font-weight: bold;}
 .services-bg                {margin:0 auto; width:100%; border-bottom:solid 1px #ebebeb; padding-bottom:20px;}
