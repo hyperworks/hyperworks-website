@@ -99,7 +99,7 @@ text-align: center;
 .cover .btn-lg {  padding: 10px 20px;  font-weight: bold;}
 .services-bg                {margin:0 auto; width:100%; border-bottom:solid 1px #ebebeb; padding-bottom:20px;}
 
-#people {width:100%; margin:0 auto;  no-repeat top center; background-size:cover; }
+#people { padding-right: 20%;  padding-left: 20%; margin:0 auto;  no-repeat top center; background-size:cover; }
 .masthead-nav {    float: right;  }}
 
 .headtext   {font-family: 'Arial'; font-size:14px; color:#858585; padding:10px 0 10px 10px; font-weight:normal; text-transform:uppercase;}
